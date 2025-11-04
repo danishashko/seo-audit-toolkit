@@ -1,0 +1,52 @@
+{
+  "name": "seo-audit-toolkit",
+  "version": "1.0.0",
+  "description": "Automated SEO audits with Lighthouse + AI recommendations. Performance scores, meta tags, schema validation, and actionable fixes.",
+  "main": "src/cli.js",
+  "bin": {
+    "seo-audit": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js https://example.com"
+  },
+  "keywords": [
+    "seo",
+    "audit",
+    "lighthouse",
+    "performance",
+    "accessibility",
+    "core-web-vitals",
+    "meta-tags",
+    "schema",
+    "open-graph",
+    "ai",
+    "optimization"
+  ],
+  "author": {
+    "name": "Daniel Shashko",
+    "url": "https://linkedin.com/in/daniel-shashko"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danishashko/seo-audit-toolkit.git"
+  },
+  "homepage": "https://github.com/danishashko/seo-audit-toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/danishashko/seo-audit-toolkit/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.2",
+    "chrome-launcher": "^1.2.1",
+    "cli-table3": "^0.6.5",
+    "lighthouse": "^12.8.2",
+    "openai": "^6.8.0",
+    "puppeteer": "^24.28.0"
+  }
+}
