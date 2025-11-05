@@ -1,6 +1,6 @@
 {
   "name": "seo-audit-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Automated SEO audits with Lighthouse + AI recommendations. Performance scores, meta tags, schema validation, and actionable fixes.",
   "main": "src/cli.js",
   "bin": {
